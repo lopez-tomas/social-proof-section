@@ -1,2 +1,26 @@
-*{-webkit-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0}html{font-size:62.5%;font-family:'$font-stack'}main{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;min-height:1530px;width:100%;padding:15px;text-align:center;background-color:#fff}.cards__review{background-color:#502050}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Spartan", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 1530px;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  background-color: white;
+}
+
+.cards__review {
+  background-color: #502050;
+}
+
 /*# sourceMappingURL=main.css.map */
