@@ -40,4 +40,21 @@ main h1 {
   background-color: #502050;
 }
 
+.stars {
+  margin-top: 40px;
+}
+.stars__opinion {
+  margin-bottom: 40px;
+}
+.stars__opinion p {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #502050;
+}
+.stars__opinion .icon-stars__container img {
+  width: 21px;
+  height: 21px;
+  padding: 0 5px 8px 0;
+}
+
 /*# sourceMappingURL=main.css.map */
