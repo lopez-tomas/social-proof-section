@@ -1,15 +1,4 @@
-// Colors
-$dark-magenta: hsl(300, 43%, 22%)
-$soft-pink: hsl(333, 80%, 67%)
-$dark-grayish-magenta: hsl(303, 10%, 53%)
-$light-grayish-magenta: hsl(300, 24%, 96%)
-$white: hsl(0, 0%, 100%)
-//Font
-$font-size: 1.5rem
-$font-stack: 'Spartan', sans-serif
-$font-light: 400
-$font-normal: 500
-$font-bold: 700
+@use 'variables'
 // #################################### //
 *
     box-sizing: border-box
@@ -17,7 +6,7 @@ $font-bold: 700
     padding: 0
 html
     font-size: 62.5%
-    font-family: $font-stack
+    font-family: variables.$font-stack
 // #################################### //
 main
     display: flex
@@ -27,21 +16,21 @@ main
     width: 100%
     padding: 10px
     text-align: center
-    background-color: $white
+    background-color: variables.$white
 
     h1
         width: 80%
         margin-top: 70px
-        font-size: $font-size + 1.2rem
-        color: $dark-magenta
+        font-size: variables.$font-size + 1.2rem
+        color: variables.$dark-magenta
 
 .description
     margin-top: 30px
 
     p
-        font-size: $font-size - 0.2rem
-        font-weight: $font-normal
-        line-height: $font-size + .9rem
+        font-size: variables.$font-size - 0.2rem
+        font-weight: variables.$font-normal
+        line-height: variables.$font-size + .9rem
         color: grey
 
 .stars
@@ -51,9 +40,9 @@ main
         margin-bottom: 40px
 
         p
-            font-size: $font-size - 0.3rem
-            font-weight: $font-bold
-            color: $dark-magenta
+            font-size: variables.$font-size - 0.3rem
+            font-weight: variables.$font-bold
+            color: variables.$dark-magenta
         
         .icon-stars__container
             img
@@ -71,10 +60,9 @@ main
         width: 93%
         max-width: 330.14px
         heigh: auto
-        //min-height: 220px
         margin-bottom: 15px
-        background-color: $dark-magenta
-        color: $white
+        background-color: variables.$dark-magenta
+        color: variables.$white
         border-radius: 6px
 
         &--review
@@ -91,17 +79,17 @@ main
                     margin-top: 2px
                 h4
                     text-align: left
-                    font-size: $font-size - 3rem
-                    font-weight: $font-light
-                    color: $soft-pink
+                    font-size: variables.$font-size - 3rem
+                    font-weight: variables.$font-light
+                    color: variables.$soft-pink
         p
             width: 80%
             margin: 0 auto
             margin-top: 20px
             margin-bottom: 25px 
             text-align: left
-            font-size: $font-size - .455555rem
-            font-weight: $font-normal
+            font-size: variables.$font-size - .455555rem
+            font-weight: variables.$font-normal
             line-height: 20px
 
 footer
@@ -109,9 +97,9 @@ footer
     justify-content: center
     align-items: center
     height: 30px
-    background-color: $soft-pink 
-    font-weight: $font-bold
-    color: $white
+    background-color: variables.$soft-pink 
+    font-weight: variables.$font-bold
+    color: variables.$white
 
     a
-        color: $dark-magenta
+        color: variables.$dark-magenta

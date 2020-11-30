@@ -1,113 +1,17 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 1 | @use 'variables'
+ *   | ^^^^^^^^^^^^^^^^
+ *   '
+ *   styles/main.sass 1:1  root stylesheet */
 
-html {
-  font-size: 62.5%;
-  font-family: "Spartan", sans-serif;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @use 'variables'\d\a   \2502  ^^^^^^^^^^^^^^^^\a   \2575 \a   styles/main.sass 1:1  root stylesheet";
 }
-
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 1400px;
-  width: 100%;
-  padding: 10px;
-  text-align: center;
-  background-color: white;
-}
-main h1 {
-  width: 80%;
-  margin-top: 70px;
-  font-size: 2.7rem;
-  color: #502050;
-}
-
-.description {
-  margin-top: 30px;
-}
-.description p {
-  font-size: 1.3rem;
-  font-weight: 500;
-  line-height: 2.4rem;
-  color: grey;
-}
-
-.stars {
-  margin-top: 40px;
-}
-.stars__opinion {
-  margin-bottom: 40px;
-}
-.stars__opinion p {
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: #502050;
-}
-.stars__opinion .icon-stars__container img {
-  width: 21px;
-  height: 21px;
-  padding: 0 5px 8px 0;
-}
-
-.cards {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 10px;
-}
-.cards__card {
-  width: 93%;
-  max-width: 330.14px;
-  heigh: auto;
-  margin-bottom: 15px;
-  background-color: #502050;
-  color: white;
-  border-radius: 6px;
-}
-.cards__card--review {
-  display: flex;
-  margin: 35px 30px;
-}
-.cards__card--review img {
-  height: 35px;
-  margin-right: 18px;
-  border-radius: 50%;
-}
-.cards__card--review__user h3, .cards__card--review__user h4 {
-  margin-top: 2px;
-}
-.cards__card--review__user h4 {
-  text-align: left;
-  font-size: -1.5rem;
-  font-weight: 400;
-  color: #ee68a4;
-}
-.cards__card p {
-  width: 80%;
-  margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: 25px;
-  text-align: left;
-  font-size: 1.044445rem;
-  font-weight: 500;
-  line-height: 20px;
-}
-
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 30px;
-  background-color: #ee68a4;
-  font-weight: 700;
-  color: white;
-}
-footer a {
-  color: #502050;
-}
-
-/*# sourceMappingURL=main.css.map */
