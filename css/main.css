@@ -61,6 +61,7 @@ main h1 {
 }
 .cards__card {
   width: 93%;
+  max-width: 330.14px;
   heigh: auto;
   margin-bottom: 15px;
   background-color: #502050;
