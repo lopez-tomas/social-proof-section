@@ -96,4 +96,17 @@ main h1 {
   line-height: 20px;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  background-color: #ee68a4;
+  font-weight: 700;
+  color: white;
+}
+footer a {
+  color: #502050;
+}
+
 /*# sourceMappingURL=main.css.map */
