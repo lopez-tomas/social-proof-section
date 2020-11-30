@@ -23,7 +23,7 @@ main
     display: flex
     flex-direction: column
     align-items: center
-    min-height: 1530px
+    min-height: 1400px
     width: 100%
     padding: 10px
     text-align: center
@@ -43,10 +43,6 @@ main
         line-height: $font-size + .9rem
         color: grey
 
-.cards
-    &__review
-        background-color: $dark-magenta
-
 .stars
     margin-top: 40px
 
@@ -63,3 +59,46 @@ main
                 width: 21px
                 height: 21px
                 padding: 0 5px 8px 0
+
+.cards
+    display: flex
+    align-items: center
+    flex-direction: column 
+    margin-top: 10px    
+
+    &__card
+        width: 93%
+        heigh: auto
+        //min-height: 220px
+        margin-bottom: 15px
+        background-color: $dark-magenta
+        color: $white
+        border-radius: 6px
+
+        &--review
+            display: flex
+            margin: 35px 30px
+            
+            img
+                height: 35px
+                margin-right: 18px
+                border-radius: 50%
+
+            &__user
+                h3, h4
+                    margin-top: 2px
+                h4
+                    text-align: left
+                    font-size: $font-size - 3rem
+                    font-weight: $font-light
+                    color: $soft-pink
+
+        p
+            width: 80%
+            margin: 0 auto
+            margin-top: 20px
+            margin-bottom: 25px 
+            text-align: left
+            font-size: $font-size - .455555rem
+            font-weight: $font-normal
+            line-height: 20px
