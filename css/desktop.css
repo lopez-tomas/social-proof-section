@@ -1,22 +1,37 @@
-main h1 {
-  width: 34vw;
-  height: auto;
+main {
+  padding: 100px 130px 0 130px;
+}
+
+.header-container {
+  display: flex;
+  width: 100%;
+}
+.header-container header {
+  width: 50%;
   align-self: flex-start;
-  margin-top: 100px;
-  margin-left: 120px;
+}
+.header-container header h1 {
+  width: 100%;
+  height: auto;
+  margin-top: 0;
   text-align: left;
   font-size: 3.5rem;
 }
 
 .description {
-  align-self: flex-start;
-  width: 30vw;
+  width: 100%;
   margin-top: 10px;
-  margin-left: 120px;
   text-align: left;
 }
 .description p {
   width: 30vw;
+}
+
+.stars {
+  width: 50%;
+  margin-top: 30px;
+  margin-left: 10px;
+  text-align: left;
 }
 
 /*# sourceMappingURL=desktop.css.map */
