@@ -33,5 +33,11 @@ main {
   margin-left: 10px;
   text-align: left;
 }
+.cards {
+  flex-direction: row;
+}
+.cards__card {
+  max-height: 250px;
+}
 
 /*# sourceMappingURL=desktop.css.map */
