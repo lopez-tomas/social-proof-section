@@ -1,14 +1,14 @@
 @use "./modules/_variables"
 
 main
-    padding: 100px 130px 0 130px
+    padding: 100px 80px 0 80px
 
 .header-container
     display: flex
     width: 100%
     
     header
-        width: 50%
+        width: 40%
         align-self: flex-start
         h1
             width: 100%
@@ -26,15 +26,28 @@ main
         width: 30vw
 
 .stars
-    width: 50%
+    width: 60%
     margin-top: 30px
     margin-left: 10px
     text-align: left
 
-    %__opinion
+    &__opinion
+        display: flex
+            
+        p
+            margin-left: 25px
+
+    .opinion2
+        padding-left: 40px
+    .opinion3
+        padding-left: 80px
 
 .cards
     flex-direction: row
 
-    &__card
-        max-height: 250px
+    .card2, .card3
+        margin-left: 25px
+        margin-top: 25px
+    .card3
+        margin-top: 50px
+

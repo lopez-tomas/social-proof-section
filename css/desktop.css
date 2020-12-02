@@ -1,5 +1,5 @@
 main {
-  padding: 100px 130px 0 130px;
+  padding: 100px 80px 0 80px;
 }
 
 .header-container {
@@ -7,7 +7,7 @@ main {
   width: 100%;
 }
 .header-container header {
-  width: 50%;
+  width: 40%;
   align-self: flex-start;
 }
 .header-container header h1 {
@@ -28,16 +28,33 @@ main {
 }
 
 .stars {
-  width: 50%;
+  width: 60%;
   margin-top: 30px;
   margin-left: 10px;
   text-align: left;
 }
+.stars__opinion {
+  display: flex;
+}
+.stars__opinion p {
+  margin-left: 25px;
+}
+.stars .opinion2 {
+  padding-left: 40px;
+}
+.stars .opinion3 {
+  padding-left: 80px;
+}
+
 .cards {
   flex-direction: row;
 }
-.cards__card {
-  max-height: 250px;
+.cards .card2, .cards .card3 {
+  margin-left: 25px;
+  margin-top: 25px;
+}
+.cards .card3 {
+  margin-top: 50px;
 }
 
 /*# sourceMappingURL=desktop.css.map */
