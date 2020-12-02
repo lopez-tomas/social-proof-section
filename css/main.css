@@ -61,7 +61,7 @@ main header h1 {
 .cards__card {
   width: 93%;
   max-width: 330.14px;
-  heigh: auto;
+  height: 220px;
   margin-bottom: 15px;
   background-color: #502050;
   color: white;
@@ -69,7 +69,7 @@ main header h1 {
 }
 .cards__card--review {
   display: flex;
-  margin: 35px 30px;
+  margin: 35px 20px;
 }
 .cards__card--review img {
   height: 35px;
@@ -86,10 +86,9 @@ main header h1 {
   color: #ee68a4;
 }
 .cards__card p {
-  width: 80%;
+  width: 86%;
   margin: 0 auto;
   margin-top: 20px;
-  margin-bottom: 25px;
   text-align: left;
   font-size: 1.044445rem;
   font-weight: 500;
